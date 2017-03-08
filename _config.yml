@@ -1,8 +1,14 @@
 # Basic
+<<<<<<< HEAD
 # title: Dinesh Adhikari, UI Designer, UI Developer, Ux, danuadhikari@gmail.com,
 title: Dinesh Adhikari
 subtitle: UI Designer & Developer
 description: I'm Dinesh Adhikari, a User Interface Designer & User Interface Developer based in Delhi, India.
+=======
+title: Dinesh
+subtitle: Nothing
+description: someting text here
+>>>>>>> cc93d109d5f4d1e92f25ff218e4eb735146ee5a6
 # 头像里面的标题
 avatarTitle: Dinesh Adhikari
 # 头像里面的描述
