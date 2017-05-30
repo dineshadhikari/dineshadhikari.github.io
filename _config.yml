@@ -1,73 +1,65 @@
-# Basic
-# title: Dinesh Adhikari, UI Designer, UI Developer, Ux, danuadhikari@gmail.com,
-title: Dinesh Adhikari
-subtitle: UI Designer & Developer
-description: I'm Dinesh Adhikari, a User Interface Designer & User Interface Developer based in Delhi, India.
+# Site
+title: Halve
+description: Stylish, Two-Column Jekyll Theme
+url: https://taylantatli.github.io/Halve
+logo: halve.png                                       # Site logo
+locale: en_US
 
-avatarTitle: Dinesh Adhikari
+# Left Block Images
+background:
+  homepage: images/home.png                           # this image will be shown on homepage's left block
+  post-list: images/unsplash-image-10.jpg             # this image will be shown on post list page
+  default-post: images/unsplash-gallery-image-3.jpg   # this image will be shown when post's front matter doesn't specify any image
 
-avatarDesc: Web/UI/UX
-url: ""
-
-# Comment
-comment:
-    # disqus: leopard
-    duoshuo: leopard
-
-# Social
-social:
-    weibo: 5366874726
-    github: leopardpan
-    # twitter:
-    mail: danuadhikari@gmail.com
-
-# 百度统计
-# 使用博客模板请去掉或者更换 id
-baidu:
-    id: 8ba1c6be0953b6f9c2ba38e57f615421
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+sass:
+  sass_dir:         assets/_sass
+  style:            compressed
 
 # Google Analytics
-# 使用博客模板请去掉或者更换 id
-ga:
-    id: UA-84134159-3
-    host: auto
+#google-analytics: UA-XXXXX-Y
 
+# Social Links
+#email:             email
+#google.plus:        username
+twitter:            username
+#facebook:           username
+github:             username
+stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+#linkedin:          username
+#xing:              username
+#instagram:          username
+#lastfm:            username
+#tumblr:            username
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+#youtube:           username
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+behance:           username
 
-# 《----------------- 上面的信息修改成你自己的 ---------------------------》
-#
-#
-#  _post/ 下的文章更换成你自己的文章
-#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
-#
-#
-# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+# Gems
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
 
-
-permalink: /:year/:month/:title/
-# Format
-highlighter: rouge
-
-textColor: #FF0000
-
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: clear
-
-# The blog button should not be removed.
-blog_button:
-    title: Articles
-
-# Navigation buttons in the front page.s
-nav:
-    - {title: Blog, description: archive, url: '/#'}
-    - {title: Work, description: tags, url: '/#'}
-    - {title: About me, description: about, url: '/#'}
-
-    # - {title: Blog, description: archive, url: '/archive'}
-    # - {title: 标签, description: tags, url: '/tags'}
-    # - {title: 关于我, description: about, url: '/about'}
-
-
-# Pagination
-gems: [jekyll-paginate,jekyll-sitemap]
-paginate: 20
-paginate_path: "page/:num/"
+# Exclude list
+include: [_pages]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
