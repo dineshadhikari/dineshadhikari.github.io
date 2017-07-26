@@ -1,8 +1,8 @@
 # Site
-title: Halve
-description: Stylish, Two-Column Jekyll Theme
-url: https://taylantatli.github.io/Halve
-logo: halve.png                                       # Site logo
+title: Dinesh Adhikari
+description: Web, UI & UX
+url: http://127.0.0.1:4000/
+logo: d-logo.png                                       # Site logo
 locale: en_US
 
 # Left Block Images
@@ -29,17 +29,17 @@ sass:
 #google-analytics: UA-XXXXX-Y
 
 # Social Links
-#email:             email
+email:             danuadhikari@gamil.com
 #google.plus:        username
-twitter:            username
+twitter:            Danu8802
 #facebook:           username
-github:             username
-stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+github:             dineshadhikari
+# stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 #linkedin:          username
 #xing:              username
 #instagram:          username
 #lastfm:            username
-#tumblr:            username
+tumblr:           https://adhikariblog.tumblr.com/
 #pinterest:         username
 #foursquare:        username
 #steam:              username
@@ -52,7 +52,7 @@ stackoverflow:     123456/username   from a "http://stackoverflow.com/users/1234
 #keybase:           username
 #xmpp:              username@server.com
 #hackernews:        username
-behance:           username
+behance:           adhikari07
 
 # Gems
 gems:
